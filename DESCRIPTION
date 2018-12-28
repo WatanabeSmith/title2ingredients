@@ -1,0 +1,17 @@
+Package: title2ingredients
+Type: Package
+Title: Predict a List of Ingredients Given the Title of a Dish
+Version: 0.1.0
+Author: Kevin Watanabe-Smith
+Maintainer: Kevin Watanabe-Smith <kevin.watanabe.smith@gmail.com>
+Description: Implements a neural network model trained on 1 million recipes
+    to predict likely ingredients given a dish title.
+License: GPLv3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    keras,
+    magrittr,
+    readr,
+    stringr
+RoxygenNote: 6.1.1
